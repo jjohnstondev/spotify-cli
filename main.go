@@ -27,7 +27,7 @@ import (
 var version = "0.0.0"
 
 func main() {
-	// TODO: https://github.com/spf13/viper/pull/1064
+	// TODO: switch to aconfig
 	viper.AddConfigPath("$HOME")
 	viper.SetConfigName(".spotify-cli")
 	viper.SetConfigType("json")
